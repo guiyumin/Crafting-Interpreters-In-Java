@@ -1,0 +1,63 @@
+# Java/Maven build artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven dependency directory
+.mvn/
+mvnw
+mvnw.cmd
+
+# Maven wrapper properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Dependency directories (if you use other build tools in the future)
+lib/
+libs/
+
+# IDE-specific files
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IntelliJ IDEA (if you ever use it)
+.idea/
+*.iml
+
+# Eclipse (if you ever use it)
+.classpath
+.project
+.settings/
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Environment-specific files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Local Maven repository (if you use it)
+~/.m2/

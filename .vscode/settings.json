@@ -1,0 +1,14 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.saveActions.organizeImports": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "redhat.java",
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.organizeImports": "never"
+  },
+  "java.cleanup.actions": [],
+}
